@@ -3,7 +3,6 @@ package com.krishbarcode.police_app;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.support.annotation.NonNull;
@@ -48,7 +47,7 @@ public class create_challan_2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_challan_2);
+        setContentView(R.layout.activity_create_challan_2_mock);
         imageView = (ImageView)findViewById(R.id.veh);
         vehno = (EditText)findViewById(R.id.vehno);
         storage = FirebaseStorage.getInstance();

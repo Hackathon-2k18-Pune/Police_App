@@ -24,7 +24,8 @@
         <activity
             android:name=".Police_main"
             android:label="Police"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar"
+             />
         <activity
             android:name=".searchuser"
             android:label="Search User" />
